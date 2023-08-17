@@ -26,7 +26,7 @@ import org.scalatest.funsuite.AnyFunSuite
 
 import scala.collection.mutable
 
-class JobOverlapAnalyzerSuite extends FunSuite {
+class JobOverlapAnalyzerSuite extends AnyFunSuite {
 
   def createDummyAppContext(): AppContext = {
 
