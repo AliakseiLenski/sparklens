@@ -20,6 +20,9 @@ libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.6" % "p
 
 libraryDependencies += "org.apache.httpcomponents" % "httpmime" % "4.5.6" % "provided"
 
+libraryDependencies += "org.scalatest" %% "scalatest-funsuite" % "3.2.0" % "test"
+
+
 test in assembly := {}
 
 testOptions in Test += Tests.Argument("-oF")
